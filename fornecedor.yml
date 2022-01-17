@@ -2,7 +2,7 @@ spring:
   datasource:
     password: root
     username: root
-    uri: jdbc:postgresql://localhost:5432/micro-service-fornecedor
+    url: jdbc:postgresql://localhost:5432/micro-service-fornecedor
   jpa:
     hibernate:
       ddl-auto: update
